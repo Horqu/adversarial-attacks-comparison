@@ -1,0 +1,229 @@
+Using device: cuda
+
+Testing model: LSTMModel
+
+Testing dataset: MNIST
+Accuracy before adversarial attack: 98.65%
+Training time: 148.38 seconds
+
+Testing attack: FGSM_1 with parameters: {'epsilon': 0.3}
+Accuracy after adversarial attack: 11.27%
+Attack time: 2.25 seconds
+
+Testing attack: FGSM_2 with parameters: {'epsilon': 0.1}
+Accuracy after adversarial attack: 51.20%
+Attack time: 2.07 seconds
+
+Testing attack: FGSM_3 with parameters: {'epsilon': 0.05}
+Accuracy after adversarial attack: 80.83%
+Attack time: 2.05 seconds
+
+Testing attack: FGSM_4 with parameters: {'epsilon': 0.01}
+Accuracy after adversarial attack: 96.87%
+Attack time: 2.15 seconds
+
+Testing attack: PGD_1 with parameters: {'epsilon': 0.3, 'alpha': 0.01, 'num_iter': 50}
+Accuracy after adversarial attack: 0.00%
+Attack time: 39.01 seconds
+
+Testing attack: PGD_2 with parameters: {'epsilon': 0.1, 'alpha': 0.01, 'num_iter': 50}
+Accuracy after adversarial attack: 15.45%
+Attack time: 39.71 seconds
+
+Testing attack: PGD_3 with parameters: {'epsilon': 0.2, 'alpha': 0.02, 'num_iter': 100}
+Accuracy after adversarial attack: 0.07%
+Attack time: 78.79 seconds
+
+Testing attack: PGD_4 with parameters: {'epsilon': 0.05, 'alpha': 0.005, 'num_iter': 30}
+Accuracy after adversarial attack: 80.92%
+Attack time: 24.00 seconds
+
+Testing attack: DeepFool_1 with parameters: {'overshoot': 0.02, 'max_iter': 10000}
+Accuracy after adversarial attack: 93.97%
+Attack time: 3.22 seconds
+
+Testing attack: DeepFool_2 with parameters: {'overshoot': 0.01, 'max_iter': 5000}
+Accuracy after adversarial attack: 95.46%
+Attack time: 4.14 seconds
+
+Testing attack: DeepFool_3 with parameters: {'overshoot': 0.03, 'max_iter': 1000}
+Accuracy after adversarial attack: 92.24%
+Attack time: 2.81 seconds
+
+Testing attack: DeepFool_4 with parameters: {'overshoot': 0.005, 'max_iter': 200}
+Accuracy after adversarial attack: 96.15%
+Attack time: 6.00 seconds
+
+Testing attack: CW_1 with parameters: {'c': 0.001, 'kappa': 0, 'max_iter': 1000, 'learning_rate': 0.01}
+Accuracy after adversarial attack: 99.27%
+Attack time: 719.36 seconds
+
+Testing dataset: FashionMNIST
+Accuracy before adversarial attack: 90.18%
+Training time: 106.48 seconds
+
+Testing attack: FGSM_1 with parameters: {'epsilon': 0.3}
+Accuracy after adversarial attack: 16.77%
+Attack time: 1.99 seconds
+
+Testing attack: FGSM_2 with parameters: {'epsilon': 0.1}
+Accuracy after adversarial attack: 32.41%
+Attack time: 1.94 seconds
+
+Testing attack: FGSM_3 with parameters: {'epsilon': 0.05}
+Accuracy after adversarial attack: 45.74%
+Attack time: 1.89 seconds
+
+Testing attack: FGSM_4 with parameters: {'epsilon': 0.01}
+Accuracy after adversarial attack: 77.77%
+Attack time: 1.88 seconds
+
+Testing attack: PGD_1 with parameters: {'epsilon': 0.3, 'alpha': 0.01, 'num_iter': 50}
+Accuracy after adversarial attack: 0.05%
+Attack time: 34.44 seconds
+
+Testing attack: PGD_2 with parameters: {'epsilon': 0.1, 'alpha': 0.01, 'num_iter': 50}
+Accuracy after adversarial attack: 2.67%
+Attack time: 37.14 seconds
+
+Testing attack: PGD_3 with parameters: {'epsilon': 0.2, 'alpha': 0.02, 'num_iter': 100}
+Accuracy after adversarial attack: 0.01%
+Attack time: 80.47 seconds
+
+Testing attack: PGD_4 with parameters: {'epsilon': 0.05, 'alpha': 0.005, 'num_iter': 30}
+Accuracy after adversarial attack: 18.97%
+Attack time: 23.90 seconds
+
+Testing attack: DeepFool_1 with parameters: {'overshoot': 0.02, 'max_iter': 10000}
+Accuracy after adversarial attack: 77.03%
+Attack time: 2.56 seconds
+
+Testing attack: DeepFool_2 with parameters: {'overshoot': 0.01, 'max_iter': 5000}
+Accuracy after adversarial attack: 85.54%
+Attack time: 2.61 seconds
+
+Testing attack: DeepFool_3 with parameters: {'overshoot': 0.03, 'max_iter': 1000}
+Accuracy after adversarial attack: 69.03%
+Attack time: 2.91 seconds
+
+Testing attack: DeepFool_4 with parameters: {'overshoot': 0.005, 'max_iter': 200}
+Accuracy after adversarial attack: 88.76%
+Attack time: 2.70 seconds
+
+Testing attack: CW_1 with parameters: {'c': 0.001, 'kappa': 0, 'max_iter': 1000, 'learning_rate': 0.01}
+Accuracy after adversarial attack: 95.66%
+Attack time: 740.22 seconds
+
+Testing model: TransformerModel
+
+Testing dataset: MNIST
+Accuracy before adversarial attack: 98.17%
+Training time: 170.26 seconds
+
+Testing attack: FGSM_1 with parameters: {'epsilon': 0.3}
+Accuracy after adversarial attack: 7.18%
+Attack time: 3.19 seconds
+
+Testing attack: FGSM_2 with parameters: {'epsilon': 0.1}
+Accuracy after adversarial attack: 41.56%
+Attack time: 3.22 seconds
+
+Testing attack: FGSM_3 with parameters: {'epsilon': 0.05}
+Accuracy after adversarial attack: 76.70%
+Attack time: 3.22 seconds
+
+Testing attack: FGSM_4 with parameters: {'epsilon': 0.01}
+Accuracy after adversarial attack: 96.15%
+Attack time: 3.15 seconds
+
+Testing attack: PGD_1 with parameters: {'epsilon': 0.3, 'alpha': 0.01, 'num_iter': 50}
+Accuracy after adversarial attack: 0.01%
+Attack time: 90.91 seconds
+
+Testing attack: PGD_2 with parameters: {'epsilon': 0.1, 'alpha': 0.01, 'num_iter': 50}
+Accuracy after adversarial attack: 18.90%
+Attack time: 87.10 seconds
+
+Testing attack: PGD_3 with parameters: {'epsilon': 0.2, 'alpha': 0.02, 'num_iter': 100}
+Accuracy after adversarial attack: 0.09%
+Attack time: 175.71 seconds
+
+Testing attack: PGD_4 with parameters: {'epsilon': 0.05, 'alpha': 0.005, 'num_iter': 30}
+Accuracy after adversarial attack: 79.80%
+Attack time: 55.51 seconds
+
+Testing attack: DeepFool_1 with parameters: {'overshoot': 0.02, 'max_iter': 10000}
+Accuracy after adversarial attack: 94.80%
+Attack time: 5.75 seconds
+
+Testing attack: DeepFool_2 with parameters: {'overshoot': 0.01, 'max_iter': 5000}
+Accuracy after adversarial attack: 96.25%
+Attack time: 7.28 seconds
+
+Testing attack: DeepFool_3 with parameters: {'overshoot': 0.03, 'max_iter': 1000}
+Accuracy after adversarial attack: 93.09%
+Attack time: 5.00 seconds
+
+Testing attack: DeepFool_4 with parameters: {'overshoot': 0.005, 'max_iter': 200}
+Accuracy after adversarial attack: 96.89%
+Attack time: 9.93 seconds
+
+Testing attack: CW_1 with parameters: {'c': 0.001, 'kappa': 0, 'max_iter': 1000, 'learning_rate': 0.01}
+Accuracy after adversarial attack: 98.73%
+Attack time: 1696.92 seconds
+
+Testing dataset: FashionMNIST
+Accuracy before adversarial attack: 87.11%
+Training time: 152.41 seconds
+
+Testing attack: FGSM_1 with parameters: {'epsilon': 0.3}
+Accuracy after adversarial attack: 15.60%
+Attack time: 3.01 seconds
+
+Testing attack: FGSM_2 with parameters: {'epsilon': 0.1}
+Accuracy after adversarial attack: 32.33%
+Attack time: 3.03 seconds
+
+Testing attack: FGSM_3 with parameters: {'epsilon': 0.05}
+Accuracy after adversarial attack: 50.61%
+Attack time: 3.06 seconds
+
+Testing attack: FGSM_4 with parameters: {'epsilon': 0.01}
+Accuracy after adversarial attack: 79.04%
+Attack time: 3.00 seconds
+
+Testing attack: PGD_1 with parameters: {'epsilon': 0.3, 'alpha': 0.01, 'num_iter': 50}
+Accuracy after adversarial attack: 0.00%
+Attack time: 81.56 seconds
+
+Testing attack: PGD_2 with parameters: {'epsilon': 0.1, 'alpha': 0.01, 'num_iter': 50}
+Accuracy after adversarial attack: 3.22%
+Attack time: 84.21 seconds
+
+Testing attack: PGD_3 with parameters: {'epsilon': 0.2, 'alpha': 0.02, 'num_iter': 100}
+Accuracy after adversarial attack: 0.00%
+Attack time: 172.05 seconds
+
+Testing attack: PGD_4 with parameters: {'epsilon': 0.05, 'alpha': 0.005, 'num_iter': 30}
+Accuracy after adversarial attack: 36.22%
+Attack time: 53.71 seconds
+
+Testing attack: DeepFool_1 with parameters: {'overshoot': 0.02, 'max_iter': 10000}
+Accuracy after adversarial attack: 81.60%
+Attack time: 4.24 seconds
+
+Testing attack: DeepFool_2 with parameters: {'overshoot': 0.01, 'max_iter': 5000}
+Accuracy after adversarial attack: 85.09%
+Attack time: 4.24 seconds
+
+Testing attack: DeepFool_3 with parameters: {'overshoot': 0.03, 'max_iter': 1000}
+Accuracy after adversarial attack: 76.26%
+Attack time: 4.15 seconds
+
+Testing attack: DeepFool_4 with parameters: {'overshoot': 0.005, 'max_iter': 200}
+Accuracy after adversarial attack: 86.03%
+Attack time: 4.42 seconds
+
+Testing attack: CW_1 with parameters: {'c': 0.001, 'kappa': 0, 'max_iter': 1000, 'learning_rate': 0.01}
+Accuracy after adversarial attack: 90.73%
+Attack time: 1658.70 seconds
